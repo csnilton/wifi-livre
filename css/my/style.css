@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	font-family: Tahoma;
+}
+html, body{
+	height: 100%;
+}
+
+/*----------------------------------------------------
+ Estilo Documento
+------------------------------------------------------*/
+
+h1{
+	font-size:70px;
+	line-height:90px;
+	font-weight:700;
+	margin:0;
+	padding-bottom:8px;
+}
+
+h2{
+	font-size:46px;
+	line-height:38px;
+	padding-bottom:0px;
+	font-weight: 100;
+	text-transform:uppercase;
+	margin:0;
+}
+
+h3{
+	font-size:24px;
+	line-height:30px;
+	font-weight:400;
+	margin:0;
+}
+
+h4{
+	font-size:19px;
+	line-height:24px;
+	margin:0;
+}
+
+h5{
+	font-size:19px;
+	line-height:24px;
+	text-transform:uppercase;
+	margin:0;
+}
+
+h6{
+	font-size:16px;
+	line-height:24px;
+	padding-bottom:6px;
+	font-weight:400;
+	margin:0;
+}
+
+@media screen and (max-width: 1023px){
+	
+	h1{
+		font-size:70px;
+		line-height:90px;
+		font-weight:700;
+		margin:0;
+		padding-bottom:8px;
+	}
+
+	h2{
+		font-size:46px;
+		line-height:38px;
+		padding-bottom:0px;
+		font-weight: 100;
+		text-transform:uppercase;
+		margin:0;
+	}
+
+	h3{
+		font-size:18px;
+		line-height:30px;
+		font-weight:400;
+		margin:0;
+	}
+
+	h4{
+		font-size:19px;
+		line-height:24px;
+		margin:0;
+	}
+
+	h5{
+		font-size:19px;
+		line-height:24px;
+		text-transform:uppercase;
+		margin:0;
+	}
+
+	h6{
+		font-size:14px;
+		line-height:24px;
+		padding-bottom:6px;
+		font-weight:400;
+		margin:0;
+	}
+}
+
+#validacao{
+	height: 100%;
+}
+
+form{
+	width: 26.04166666666667%;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+form img{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+form button{
+	height: 50px;
+}
+
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: #c1c1c1;
+}
