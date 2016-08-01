@@ -17,6 +17,8 @@ $(document).ready(function(){
 	var tamanhoBodyModal = $('#modal .modal-dialog .modal-body').height(); 
 	var bottomBodyModal = $('#modal .modal-dialog .modal-body').offset().top + tamanhoBodyModal;
 
+	alert(tamanhoBodyModal);
+
 	$('#modal .modal-dialog .modal-body').scroll(function(){
 
 		if($(this).scrollTop() > bottomBodyModal) $('#modal .modal-dialog .modal-footer #concordo').removeClass('disabled');

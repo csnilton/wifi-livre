@@ -1,9 +1,14 @@
+@font-face{
+    font-family: tahoma;
+    src: url('../../fonts/my/tahoma.ttf');
+}
+
 *{
 	margin: 0;
-	font-family: Tahoma;
-
+	font-family: tahoma;
 	box-sizing: border-box;
 }
+
 html, body{
 	height: 100%;
 }
