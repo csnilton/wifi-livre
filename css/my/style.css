@@ -43,9 +43,8 @@ h4{
 }
 
 h5{
-	font-size:0.75em;
+	font-size:19px;
 	line-height:24px;
-	text-transform:uppercase;
 	margin:0;
 }
 
@@ -59,6 +58,7 @@ h6{
 
 @media screen and (max-width: 1023px){
 	
+
 	h1{
 		font-size:70px;
 		line-height:90px;
@@ -92,7 +92,6 @@ h6{
 	h5{
 		font-size:19px;
 		line-height:24px;
-		text-transform:uppercase;
 		margin:0;
 	}
 
@@ -105,13 +104,8 @@ h6{
 	}
 }
 
-#validacao{
+.container-height{
 	height: 100%;
-	width: 26.04166666666667%;
-	min-width: 300px;
-	margin: 0 auto;
-	padding: 10px;
-	box-sizing: border-box;
 }
 
 #validacao{
@@ -145,10 +139,8 @@ h6{
 	margin-bottom: 0;
 }
 
-
 .modal-body{
 	overflow: auto; 
-	height: 480px;
 }
 
 #footer-page{
