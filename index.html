@@ -3,13 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Prefeitura municipal de Taboão da Serra | wifi-livre</title>
-
+	
 	<meta name="viewport" content="width=device-width initial-scale=1">
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
 	<!-- JQuery -->
 	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/jquery.cycle2.js" type="text/javascript" charset="utf-8"></script>
 	
 	<!-- JavaScript -->
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
@@ -21,38 +20,136 @@
 
 </head>
 <body>
-	<section id="validacao">
-		<form action="#" onsubmit="#">
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-xs-12 col-lg-12"><img src="img/wifi-logo.png" alt="logo do sistema de wifi"></div>
-				<div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
-					<button type="submit" class="btn btn-primary btn-block" value="Clique para navegar">clique e navegue</button>
-				</div>
-			</div>
-		</form>
+
+	<!-- Modal -->
+	<section id="modal">
+		<div class="modal fade" id="meu-modal" tabindex="-1" role="dialog" aria-labelledby="meu-modal-label">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <header class="modal-header">
+		        <h4 class="modal-title" id="meu-modal-label">Termos de uso e privacidade.</h4>
+		      </header>
+		      <div class="modal-body">
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+		      </div>
+		      <footer class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+		        <button type="button" class="btn btn-primary disabled">Concordo</button>
+		      </footer>
+		    </div>
+		  </div>
+		</div>
 	</section>
 
-	<!-- Large modal -->
-	<button  class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+	<section id="validacao">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-xs-12 col-lg-12"><img src="img/wifi-logo.png" alt="logo do sistema de wifi"></div>
+			<div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
+				<button class="btn btn-primary btn-block" value="Clique para navegar" data-toggle="modal" data-target="#meu-modal">clique e navegue</button>
+			</div>
+		</div>
+	</section>
+	<!-- Button trigger modal -->
 
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-	  <div class="modal-dialog modal-lg" role="document">
-	    <div class="modal-content">
-	      ...
-	    </div>
-	  </div>
-	</div>
-
-	<!-- Small modal -->
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
-
-	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-	  <div class="modal-dialog modal-sm" role="document">
-	    <div class="modal-content">
-	      ...
-	    </div>
-	  </div>
-	</div>
 
 	<footer id="footer-page">
 		<div class="container">
